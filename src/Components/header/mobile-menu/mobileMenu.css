@@ -1,0 +1,36 @@
+.mobile-menu {
+  position: relative; /* Ensure relative positioning for absolute positioning of close button */
+}
+
+.menu-items {
+  position: absolute;
+  top: 40px; /* Adjust based on your design */
+  left: 0;
+  background-color: #fff; /* Background color of the menu */
+  border: 1px solid #ccc; /* Border of the menu */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding around menu items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+}
+
+.menu-items a {
+  display: block;
+  color: #333; /* Text color of menu items */
+  text-decoration: none;
+  padding: 8px 10px; /* Padding around menu items */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.menu-items a:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+}
+
+/* Style for the close button */
+.mobile-menu svg {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333; /* Color of the menu icon */
+  position: absolute;
+  top: 5px; /* Adjust based on your design */
+  right: 5px; /* Adjust based on your design */
+}
